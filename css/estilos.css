@@ -1,0 +1,771 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin: 5px;
+}
+body{
+    background-color:black;
+    font-family: 'Overlock SC', sans-serif
+}
+h1, h2{
+    font-family: 'Cinzel Decorative', serif;
+    color: white;
+}
+.menu{
+    background-color: red;  
+}
+
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    color: black;
+}
+.menu li a:hover{
+    color:red;
+    background-color: gold;
+    border-radius: 50%;
+}
+h1,h2,li{
+    text-align: center;
+    padding: 20px;
+ }
+h2{
+    text-decoration: underline;
+}
+p{
+    color: white;
+}
+.gif{  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-columns: 1fr;
+    gap: 8px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "gif1 gif2 gif3"
+      "gif4 gif5 gif6"
+      "gif7 . ."
+      ". . .";
+}
+.gif1{
+    grid-area: gif1; 
+    text-align: center;
+}
+.gif2{
+    grid-area: gif2; 
+    text-align: center;
+}
+.gif3{
+    grid-area: gif3;
+    text-align: center;
+ }
+.gif4{
+    grid-area: gif4;
+    text-align: center; 
+}
+.gif5{
+    grid-area: gif5;
+    text-align: center; 
+}
+.gif6{ 
+    grid-area: gif6;
+    text-align: center; 
+}
+.gif7{
+    grid-area: gif7;
+    text-align: center;
+}
+.gifa{
+    width: 300px;
+}
+
+.libros{  
+    margin: 10px;
+    width: 95vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-columns: 1fr;
+    gap: 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "libro1 libro2 libro3"
+      "libro4 libro5 libro6"
+      "libro7 libro8 libro9"
+      "libro10 libro11 .";
+}  
+.libro1{
+    grid-area: libro1;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.libro2{
+    grid-area: libro2; 
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}  
+.libro3{
+    grid-area: libro3; 
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.libro4{
+    grid-area: libro4; 
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.libro5{
+    grid-area: libro5; 
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.libro6{
+    grid-area: libro6; 
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.libro7{
+    grid-area: libro7; 
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.libro8{
+    grid-area: libro8;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.libro9{
+    grid-area: libro9; 
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}  
+.libro10{
+    grid-area: libro10; 
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.libro11{
+    grid-area: libro11;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.libro{
+    width: 100px;
+    border: 8px double grey;
+    margin: 8px;
+}
+.peliculas{
+    margin: 10px;
+    width: 95vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-columns: 1fr;
+    gap: 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "pelicula1 pelicula2 pelicula3"
+      "pelicula4 pelicula5 pelicula6"
+      "pelicula7 pelicula8 pelicula9"
+      "pelicula10 pelicula11 .";
+}  
+.pelicula1{
+    grid-area: pelicula1;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.pelicula2{
+    grid-area: pelicula2;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.pelicula3{
+    grid-area: pelicula3;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.pelicula4{
+    grid-area: pelicula4; 
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.pelicula5{
+    grid-area: pelicula5;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+} 
+.pelicula6{ 
+    grid-area: pelicula6;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}  
+.pelicula7{ 
+    grid-area: pelicula7;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}  
+.pelicula8{
+    grid-area: pelicula8;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}  
+.pelicula9{
+    grid-area: pelicula9;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}  
+.pelicula10{
+    grid-area: pelicula10;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+} 
+.pelicula11{
+    grid-area: pelicula11;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.pelicula{
+    width: 100px;
+    border: 8px double grey;
+    margin: 8px;
+}
+.videojuegos{  
+    margin: 10px;
+    width: 95vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(7,1fr);
+    grid-auto-columns: 1fr 1fr;
+    gap: 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "videojuego1 videojuego2 videojuego3"
+      "videojuego4 videojuego5 videojuego6"
+      "videojuego7 videojuego8 videojuego9"
+      "videojuego10 videojuego11 videojuego12"
+      "videojuego13 videojuego14 videojuego15"
+      "videojuego16 videojuego17 videojuego18"
+      "videojuego19 videojuego20 .";
+}
+.videojuego1{
+    grid-area: videojuego1;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}  
+.videojuego2{
+    grid-area: videojuego2;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.videojuego3{
+    grid-area: videojuego3;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+} 
+.videojuego4{
+    grid-area: videojuego4;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}  
+.videojuego5{
+    grid-area: videojuego5;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.videojuego6{
+    grid-area: videojuego6;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+} 
+.videojuego7{
+    grid-area: videojuego7;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.videojuego8{
+    grid-area: videojuego8;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}  
+.videojuego9{
+    grid-area: videojuego9;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.videojuego11{
+    grid-area: videojuego11;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.videojuego10{
+    grid-area: videojuego10;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.videojuego12{
+    grid-area: videojuego12;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+} 
+.videojuego13{
+    grid-area: videojuego13;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.videojuego14{ 
+    grid-area: videojuego14;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+} 
+.videojuego15{ 
+    grid-area: videojuego15;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.videojuego16{ 
+    grid-area: videojuego16;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.videojuego17{ 
+    grid-area: videojuego17;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.videojuego18{ 
+    grid-area: videojuego18;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.videojuego19{ 
+    grid-area: videojuego19;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.videojuego20{ 
+    grid-area: videojuego20;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}
+.videojuego{
+    width: 100px;
+    border: 8px double grey;
+    margin: 8px;
+}
+.escenas{
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    grid-auto-flow: row;
+    grid-template-areas: 
+    "escena1 escena2" 
+    "escena3 escena4" 
+    "escena5 escena6"
+    "escena7 escena8" 
+    "escena9 escena10" 
+    "escena11 .";
+}
+.escena1{
+    grid-area: escena1;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.escena2{
+    grid-area: escena2;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.escena3{
+    grid-area: escena3;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.escena4{
+    grid-area: escena4;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.escena5{
+    grid-area: escena5;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.escena6{
+    grid-area: escena6;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.escena7{
+    grid-area: escena7;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.escena8{
+    grid-area: escena8;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.escena9{
+    grid-area: escena9;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.escena10{
+    grid-area: escena10;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+.escena11{
+    grid-area: escena11;
+    text-align: center;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red; 
+}
+footer{
+    background-color:gray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+@media screen and (max-width:768px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .gif{  
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-auto-columns: 1fr;
+        gap: 8px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "gif1 gif2" 
+          "gif3 gif4"
+          "gif5 gif6"
+          "gif7   .";
+    }
+    .libros{ 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+          "libro1 libro2" 
+          "libro3 libro4" 
+          "libro5 libro6"
+          "libro7 libro8" 
+          "libro9 libro10" 
+          "libro11 .";
+    }
+    .peliculas{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6,1fr);
+        grid-template-areas:
+          "pelicula1 pelicula2" 
+          "pelicula3 pelicula4" 
+          "pelicula5 pelicula6"
+          "pelicula7 pelicula8" 
+          "pelicula9 pelicula10" 
+          "pelicula11 .";
+    }
+    .videojuegos{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(20,1fr);
+        grid-template-areas:
+          "videojuego1" 
+          "videojuego2" 
+          "videojuego3" 
+          "videojuego4" 
+          "videojuego5" 
+          "videojuego6"
+          "videojuego7" 
+          "videojuego8" 
+          "videojuego9" 
+          "videojuego10" 
+          "videojuego11" 
+          "videojuego12"
+          "videojuego13" 
+          "videojuego14" 
+          "videojuego15" 
+          "videojuego16" 
+          "videojuego17" 
+          "videojuego18"
+          "videojuego19" 
+          "videojuego20";
+    }    
+    .escenas{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(11, 1fr);
+        grid-template-areas: 
+        "escena1" 
+        "escena2" 
+        "escena3"
+        "escena4"
+        "escena5" 
+        "escena6"
+        "escena7"
+        "escena8"
+        "escena9"
+        "escena10" 
+        "escena11";
+    }
+}
+@media screen and (max-width: 600px){
+    .gif{  
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-areas:
+          "gif1" 
+          "gif2" 
+          "gif3" 
+          "gif4"
+          "gif5" 
+          "gif6"
+          "gif7";
+    }
+    .escenas{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(11, 1fr);
+        grid-template-areas: 
+        "escena1" 
+        "escena2" 
+        "escena3"
+        "escena4"
+        "escena5" 
+        "escena6"
+        "escena7"
+        "escena8"
+        "escena9"
+        "escena10" 
+        "escena11";
+    }
+}
+@media screen and (max-width: 480px){
+    .libros{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(11, 1fr);
+        grid-template-areas:
+          "libro1" 
+          "libro2" 
+          "libro3" 
+          "libro4" 
+          "libro5" 
+          "libro6"
+          "libro7" 
+          "libro8" 
+          "libro9" 
+          "libro10" 
+          "libro11";
+    }
+    .peliculas{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(11,1fr);
+        grid-template-areas:
+          "pelicula1" 
+          "pelicula2" 
+          "pelicula3" 
+          "pelicula4" 
+          "pelicula5" 
+          "pelicula6"
+          "pelicula7" 
+          "pelicula8" 
+          "pelicula9" 
+          "pelicula10" 
+          "pelicula11";
+    }
+    .escenas{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(11, 1fr);
+        grid-template-areas: 
+        "escena1" 
+        "escena2" 
+        "escena3"
+        "escena4"
+        "escena5" 
+        "escena6"
+        "escena7"
+        "escena8"
+        "escena9"
+        "escena10" 
+        "escena11";
+    }
+}
+@media screen and (max-width: 320px){
+    .videojuegos{
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 15px;
+    }
+}
