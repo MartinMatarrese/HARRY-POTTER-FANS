@@ -1,0 +1,19 @@
+header{
+    margin: 5px;
+    .menu{
+        background-color: $rojo;
+        li{
+            display: inline-block;
+            text-align: center;
+            padding: 20px;
+            a{
+                color: $negro;
+            }
+            &:hover{
+                color: $rojo;
+                background-color: $dorado;
+                border-radius: 50%;
+            }
+        }  
+    }
+}

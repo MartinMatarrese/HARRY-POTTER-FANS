@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $fondonego;
+    font-family: 'Overlock SC', sans-serif;
+    h1{
+        font-family: 'Cinzel Decorative', serif;
+        color: $blanco;
+        text-align: center;
+        padding: 20px;
+    }
+}
