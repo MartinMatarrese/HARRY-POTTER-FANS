@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Overlock+SC&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilo.css">
     <title>HARRY POTTER PÁGINA DE FAN</title>
 </head>
@@ -46,37 +47,37 @@
     <main>
         <h2>Escenas de las películas</h2>
         <div class="escenas">
-            <div class="escena1">
+            <div class="escena1" data-aos="flip-left">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/ExbxfluXjSo?si=x4TvkrTh7CjisUJB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div> 
-            <div class="escena2">
+            <div class="escena2" data-aos="flip-right">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/xSx-h8RW9iY?si=PPztkY82JlXTbob4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>    
-            <div class="escena3">
+            <div class="escena3" data-aos="flip-left">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/yGp5i7imZec?si=dLNuKbZzYSxupavB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>    
-            <div class="escena4">
+            <div class="escena4" data-aos="flip-right">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/8rSTXRsQ108?si=YyiNS3A-DNKkGd4h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>    
-            <div class="escena5">
+            <div class="escena5" data-aos="flip-left">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/iCVwKzxn2yc?si=KQ8tY3FiQzF_w40F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>    
-            <div class="escena6">
+            <div class="escena6" data-aos="flip-right">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/AEwQXFd4IjY?si=x_iIvWctOuRZA4mJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>    
-            <div class="escena7">
+            <div class="escena7" data-aos="flip-left">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/nouZch7bPCM?si=7EC-jlzLWis7eMPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>    
-            <div class="escena8">
+            <div class="escena8" data-aos="flip-right">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/jPCe8QcQxOA?si=c3iCXeEARSjLiBYS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div class="escena9">
+            <div class="escena9" data-aos="flip-left">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/HgtWUCQar9U?si=nGzj2bGnU7JOFy2H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>    
-            <div class="escena10">
+            <div class="escena10" data-aos="flip-right">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/0Xu61XE_Uyk?si=L4jF7Jjoc4LsYahv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>    
-            <div class="escena11">
+            <div class="escena11 m-1" data-aos="flip-left">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/mkGegu0s5S0?si=ibNMpnL_aVQA1wpB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>        
@@ -87,5 +88,7 @@
         </h3>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init({ easing: 'ease-out-back',duration: 2000});</script>
 </body>
 </html>

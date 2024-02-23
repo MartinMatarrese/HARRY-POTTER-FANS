@@ -570,10 +570,10 @@ main .escena11 {
 }
 
 footer {
-  background-color: grey;
   color: white;
   padding: 20px;
   text-align: center;
+  background: linear-gradient(red, black, red);
 }
 
 @media screen and (max-width: 768px) {
