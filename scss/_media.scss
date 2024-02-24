@@ -165,7 +165,7 @@
 @media screen and (max-width: 320px){
     .videojuegos{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     h2{
         font-size: 15px;
