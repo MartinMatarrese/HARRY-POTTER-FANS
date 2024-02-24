@@ -1,6 +1,13 @@
 footer{
-    color: $blanco;
     padding: 20px;
     text-align: center;
     background: linear-gradient($rojo, $negro, $rojo);
+    a{
+        color: $blanco;
+        text-decoration: none;
+        .redes{
+            width: 50px;
+            margin: 10px;
+        }
+    }
 }
