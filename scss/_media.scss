@@ -6,6 +6,7 @@
         align-items: flex-start;
     }
     main{
+        width: 80vw;
         .gif{  
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -86,6 +87,7 @@
 }
 @media screen and (max-width: 600px){
     main{
+        width: 80vw;
         .gif{  
             grid-template-columns: 1fr;
             grid-template-rows: repeat(7, 1fr);
@@ -118,6 +120,7 @@
 }
 @media screen and (max-width: 480px){
     main{
+        width: 80vw;
         .libros{
             grid-template-columns: 1fr;
             grid-template-rows: repeat(11, 1fr);
@@ -171,8 +174,12 @@
 @media screen and (max-width: 320px){
     main{
         .videojuegos{
+            width: 80vw;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
+        }
+        .escenas{
+            width: 80vw;
         }
         h2{
             font-size: 15px;
@@ -180,5 +187,8 @@
     }
     h3{
         font-size: 15px;
+    }
+    footer{
+        width: 100vw;
     }
 }
