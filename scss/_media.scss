@@ -5,170 +5,178 @@
         justify-content: flex-start;
         align-items: flex-start;
     }
-    .gif{  
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-auto-columns: 1fr;
-        gap: 8px;
-        grid-auto-flow: row;
-        grid-template-areas:
-          "gif1 gif2" 
-          "gif3 gif4"
-          "gif5 gif6"
-          "gif7   .";
-    }
-    .libros{ 
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(5, 1fr);
-        grid-template-areas:
-          "libro1 libro2" 
-          "libro3 libro4" 
-          "libro5 libro6"
-          "libro7 libro8" 
-          "libro9 libro10" 
-          "libro11 .";
-    }
-    .peliculas{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(6,1fr);
-        grid-template-areas:
-          "pelicula1 pelicula2" 
-          "pelicula3 pelicula4" 
-          "pelicula5 pelicula6"
-          "pelicula7 pelicula8" 
-          "pelicula9 pelicula10" 
-          "pelicula11 .";
-    }
-    .videojuegos{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(20,1fr);
-        grid-template-areas:
-          "videojuego1" 
-          "videojuego2" 
-          "videojuego3" 
-          "videojuego4" 
-          "videojuego5" 
-          "videojuego6"
-          "videojuego7" 
-          "videojuego8" 
-          "videojuego9" 
-          "videojuego10" 
-          "videojuego11" 
-          "videojuego12"
-          "videojuego13" 
-          "videojuego14" 
-          "videojuego15" 
-          "videojuego16" 
-          "videojuego17" 
-          "videojuego18"
-          "videojuego19" 
-          "videojuego20";
-    }    
-    .escenas{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(11, 1fr);
-        grid-template-areas: 
-        "escena1" 
-        "escena2" 
-        "escena3"
-        "escena4"
-        "escena5" 
-        "escena6"
-        "escena7"
-        "escena8"
-        "escena9"
-        "escena10" 
-        "escena11";
+    main{
+        .gif{  
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-auto-columns: 1fr;
+            gap: 8px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              "gif1 gif2" 
+              "gif3 gif4"
+              "gif5 gif6"
+              "gif7   .";
+        }
+        .libros{ 
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(5, 1fr);
+            grid-template-areas:
+              "libro1 libro2" 
+              "libro3 libro4" 
+              "libro5 libro6"
+              "libro7 libro8" 
+              "libro9 libro10" 
+              "libro11 .";
+        }
+        .peliculas{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(6,1fr);
+            grid-template-areas:
+              "pelicula1 pelicula2" 
+              "pelicula3 pelicula4" 
+              "pelicula5 pelicula6"
+              "pelicula7 pelicula8" 
+              "pelicula9 pelicula10" 
+              "pelicula11 .";
+        }
+        .videojuegos{
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(20,1fr);
+            grid-template-areas:
+              "videojuego1" 
+              "videojuego2" 
+              "videojuego3" 
+              "videojuego4" 
+              "videojuego5" 
+              "videojuego6"
+              "videojuego7" 
+              "videojuego8" 
+              "videojuego9" 
+              "videojuego10" 
+              "videojuego11" 
+              "videojuego12"
+              "videojuego13" 
+              "videojuego14" 
+              "videojuego15" 
+              "videojuego16" 
+              "videojuego17" 
+              "videojuego18"
+              "videojuego19" 
+              "videojuego20";
+        }    
+        .escenas{
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(11, 1fr);
+            grid-template-areas: 
+            "escena1" 
+            "escena2" 
+            "escena3"
+            "escena4"
+            "escena5" 
+            "escena6"
+            "escena7"
+            "escena8"
+            "escena9"
+            "escena10" 
+            "escena11";
+        }
     }
 }
 @media screen and (max-width: 600px){
-    .gif{  
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(7, 1fr);
-        grid-template-areas:
-          "gif1" 
-          "gif2" 
-          "gif3" 
-          "gif4"
-          "gif5" 
-          "gif6"
-          "gif7";
-    }
-    .escenas{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(11, 1fr);
-        grid-template-areas: 
-        "escena1" 
-        "escena2" 
-        "escena3"
-        "escena4"
-        "escena5" 
-        "escena6"
-        "escena7"
-        "escena8"
-        "escena9"
-        "escena10" 
-        "escena11";
+    main{
+        .gif{  
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(7, 1fr);
+            grid-template-areas:
+              "gif1" 
+              "gif2" 
+              "gif3" 
+              "gif4"
+              "gif5" 
+              "gif6"
+              "gif7";
+        }
+        .escenas{
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(11, 1fr);
+            grid-template-areas: 
+            "escena1" 
+            "escena2" 
+            "escena3"
+            "escena4"
+            "escena5" 
+            "escena6"
+            "escena7"
+            "escena8"
+            "escena9"
+            "escena10" 
+            "escena11";
+        }
     }
 }
 @media screen and (max-width: 480px){
-    .libros{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(11, 1fr);
-        grid-template-areas:
-          "libro1" 
-          "libro2" 
-          "libro3" 
-          "libro4" 
-          "libro5" 
-          "libro6"
-          "libro7" 
-          "libro8" 
-          "libro9" 
-          "libro10" 
-          "libro11";
-    }
-    .peliculas{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(11,1fr);
-        grid-template-areas:
-          "pelicula1" 
-          "pelicula2" 
-          "pelicula3" 
-          "pelicula4" 
-          "pelicula5" 
-          "pelicula6"
-          "pelicula7" 
-          "pelicula8" 
-          "pelicula9" 
-          "pelicula10" 
-          "pelicula11";
-    }
-    .escenas{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(11, 1fr);
-        grid-template-areas: 
-        "escena1" 
-        "escena2" 
-        "escena3"
-        "escena4"
-        "escena5" 
-        "escena6"
-        "escena7"
-        "escena8"
-        "escena9"
-        "escena10" 
-        "escena11";
+    main{
+        .libros{
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(11, 1fr);
+            grid-template-areas:
+              "libro1" 
+              "libro2" 
+              "libro3" 
+              "libro4" 
+              "libro5" 
+              "libro6"
+              "libro7" 
+              "libro8" 
+              "libro9" 
+              "libro10" 
+              "libro11";
+        }
+        .peliculas{
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(11,1fr);
+            grid-template-areas:
+              "pelicula1" 
+              "pelicula2" 
+              "pelicula3" 
+              "pelicula4" 
+              "pelicula5" 
+              "pelicula6"
+              "pelicula7" 
+              "pelicula8" 
+              "pelicula9" 
+              "pelicula10" 
+              "pelicula11";
+        }
+        .escenas{
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(11, 1fr);
+            grid-template-areas: 
+            "escena1" 
+            "escena2" 
+            "escena3"
+            "escena4"
+            "escena5" 
+            "escena6"
+            "escena7"
+            "escena8"
+            "escena9"
+            "escena10" 
+            "escena11";
+        }
     }
 }
 @media screen and (max-width: 320px){
-    .videojuegos{
-        display: flex;
-        flex-direction: row;
-    }
-    h2{
-        font-size: 15px;
+    main{
+        .videojuegos{
+            display: flex;
+            flex-direction: row;
+        }
+        h2{
+            font-size: 15px;
+        }
     }
     h3{
         font-size: 15px;
