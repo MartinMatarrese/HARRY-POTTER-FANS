@@ -562,3 +562,14 @@ main{
         border-left: solid 5px $rojo; 
     }
 }
+.formulario{
+    font-family: 'Cinzel Decorative', serif;
+    width: 550px;
+    border-top: solid 5px $rojo;
+    border-right: solid 5px $rojo;
+    border-bottom: solid 5px $rojo;
+    border-left: solid 5px $rojo;
+    .formu{
+        color: $blanco;
+    } 
+}

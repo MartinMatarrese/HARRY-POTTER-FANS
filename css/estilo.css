@@ -573,6 +573,18 @@ main .escena11 {
   border-left: solid 5px red;
 }
 
+.formulario {
+  font-family: "Cinzel Decorative", serif;
+  width: 550px;
+  border-top: solid 5px red;
+  border-right: solid 5px red;
+  border-bottom: solid 5px red;
+  border-left: solid 5px red;
+}
+.formulario .formu {
+  color: white;
+}
+
 footer {
   padding: 20px;
   text-align: center;
@@ -667,6 +679,15 @@ footer a {
     grid-template-rows: repeat(11, 1fr);
     grid-template-areas: "escena1" "escena2" "escena3" "escena4" "escena5" "escena6" "escena7" "escena8" "escena9" "escena10" "escena11";
   }
+  .formulario {
+    width: 80vw;
+  }
+  .opinion {
+    width: 200px;
+  }
+  .texto {
+    width: 200px;
+  }
 }
 @media screen and (max-width: 320px) {
   main .videojuegos {
@@ -685,6 +706,12 @@ footer a {
   }
   footer {
     width: 100vw;
+  }
+  .texto {
+    width: 200px;
+  }
+  .opinion {
+    width: 200px;
   }
 }
 

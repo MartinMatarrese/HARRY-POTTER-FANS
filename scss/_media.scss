@@ -170,6 +170,15 @@
             "escena11";
         }
     }
+    .formulario{
+        width: 80vw;
+    }
+    .opinion{
+        width: 200px;
+    }
+    .texto{
+        width: 200px;
+    }
 }
 @media screen and (max-width: 320px){
     main{
@@ -190,5 +199,11 @@
     }
     footer{
         width: 100vw;
+    }
+    .texto{
+        width: 200px;
+    }
+    .opinion{
+        width: 200px;
     }
 }
