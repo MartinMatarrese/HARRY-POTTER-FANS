@@ -74,6 +74,7 @@ main{
           "libro10 libro11 .";
     }  
     .libro1{
+        height: 1000px;
         grid-area: libro1;
         text-align: center;
         border-top: solid 5px $rojo;
@@ -82,6 +83,7 @@ main{
         border-left: solid 5px $rojo;
     }
     .libro2{
+        height: 1000px;
         grid-area: libro2; 
         text-align: center;
         border-top: solid 5px $rojo;
@@ -98,6 +100,7 @@ main{
         border-left: solid 5px $rojo;
     }
     .libro4{
+        height: 800px;
         grid-area: libro4; 
         text-align: center;
         border-top: solid 5px $rojo;
@@ -106,6 +109,7 @@ main{
         border-left: solid 5px $rojo;
     }
     .libro5{
+        height: 900px;
         grid-area: libro5; 
         text-align: center;
         border-top: solid 5px $rojo;
@@ -114,6 +118,7 @@ main{
         border-left: solid 5px $rojo;
     }
     .libro6{
+        height: 1000px;
         grid-area: libro6; 
         text-align: center;
         border-top: solid 5px $rojo;
@@ -122,6 +127,7 @@ main{
         border-left: solid 5px $rojo;
     }
     .libro7{
+        height: 900px;
         grid-area: libro7; 
         text-align: center;
         border-top: solid 5px $rojo;
@@ -130,6 +136,7 @@ main{
         border-left: solid 5px $rojo;
     }
     .libro8{
+        height: 600px;
         grid-area: libro8;
         text-align: center;
         border-top: solid 5px $rojo;
@@ -138,6 +145,7 @@ main{
         border-left: solid 5px $rojo;
     }
     .libro9{
+        height: 600px;
         grid-area: libro9; 
         text-align: center;
         border-top: solid 5px $rojo;
@@ -146,6 +154,7 @@ main{
         border-left: solid 5px $rojo;
     }  
     .libro10{
+        height: 600px;
         grid-area: libro10; 
         text-align: center;
         border-top: solid 5px $rojo;
@@ -154,6 +163,7 @@ main{
         border-left: solid 5px $rojo;
     }
     .libro11{
+        height: 600px;
         grid-area: libro11;
         text-align: center;
         border-top: solid 5px $rojo;
