@@ -1,4 +1,7 @@
 @media screen and (max-width:768px){
+    body{
+        width: 100vw;
+    }
     header{
         display: flex;
         flex-direction: column;
@@ -7,31 +10,6 @@
     }
     main{
         width: 80vw;
-        
-        .libro1{
-            height: 1200px;
-        }
-        .libro2{
-            height: 1300px;
-        }
-        .libro3{
-            height: 1550px;
-        }
-        .libro4{
-            height: 1000px;
-        }
-        .libro5{
-            height: 1100px;
-        }
-        .libro6{
-            height: 1300px;
-        }
-        .libro7{
-            height: 1100px;
-        }
-        .libro8{
-            height: 700px;
-        }
         .gif{  
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -46,6 +24,7 @@
               "gif7   .";
         }
         .libros{ 
+            height: 1200px;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: repeat(5, 1fr);
             grid-template-areas:
@@ -55,6 +34,31 @@
               "libro7 libro8" 
               "libro9 libro10" 
               "libro11 .";
+              .libros{
+                width: 100vw;
+                height: 6500px;
+            }
+            .libro2{
+                height: 1300px;
+            }
+            .libro3{
+                height: 1550px;
+            }
+            .libro4{
+                height: 1000px;
+            }
+            .libro5{
+                height: 1100px;
+            }
+            .libro6{
+                height: 1300px;
+            }
+            .libro7{
+                height: 1100px;
+            }
+            .libro8{
+                height: 700px;
+            }
         }
         .peliculas{
             grid-template-columns: 1fr 1fr;
@@ -111,8 +115,14 @@
     }
 }
 @media screen and (max-width: 600px){
+    body{
+        width: 100vw;
+    }
     main{
         width: 80vw;
+        .libros{
+            height: 6700px;
+        }
         .libro1{
             height: 1200px;
         }
@@ -174,6 +184,7 @@
     main{
         width: 80vw;
         .libros{
+            height: 9000px;
             grid-template-columns: 1fr;
             grid-template-rows: repeat(11, 1fr);
             grid-template-areas:
@@ -188,6 +199,30 @@
               "libro9" 
               "libro10" 
               "libro11";
+              .libro1{
+                height: 900px;
+              }
+              .libro2{
+                height: 900px;
+              }
+              .libro3{
+                height: 1100px;
+              }
+              .libro4{
+                height: 700px;
+              }
+              .libro5{
+                height: 900px;
+              }
+              .libro6{
+                height: 900px;
+              }
+              .libro7{
+                height: 900px;
+              }
+              .libro8{
+                height: 700px;
+              }
         }
         .peliculas{
             grid-template-columns: 1fr;
@@ -234,6 +269,9 @@
 }
 @media screen and (max-width: 320px){
     main{
+        .libro1{
+            height: 100%;
+        }
         .videojuegos{
             width: 80vw;
             display: flex;

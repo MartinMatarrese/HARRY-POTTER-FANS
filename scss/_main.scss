@@ -61,6 +61,7 @@ main{
     .libros{  
         margin: 10px;
         width: 95vw;
+        height: auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: repeat(4, 1fr);
