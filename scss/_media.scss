@@ -1,7 +1,4 @@
 @media screen and (max-width:768px){
-    body{
-        width: 100vw;
-    }
     header{
         display: flex;
         flex-direction: column;
@@ -9,7 +6,7 @@
         align-items: flex-start;
     }
     main{
-        width: 80vw;
+        height: 100%;
         .gif{  
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -24,7 +21,6 @@
               "gif7   .";
         }
         .libros{ 
-            height: 1200px;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: repeat(5, 1fr);
             grid-template-areas:
@@ -37,27 +33,6 @@
               .libros{
                 width: 100vw;
                 height: 6500px;
-            }
-            .libro2{
-                height: 1300px;
-            }
-            .libro3{
-                height: 1550px;
-            }
-            .libro4{
-                height: 1000px;
-            }
-            .libro5{
-                height: 1100px;
-            }
-            .libro6{
-                height: 1300px;
-            }
-            .libro7{
-                height: 1100px;
-            }
-            .libro8{
-                height: 700px;
             }
         }
         .peliculas{
@@ -120,33 +95,6 @@
     }
     main{
         width: 80vw;
-        .libros{
-            height: 6700px;
-        }
-        .libro1{
-            height: 1200px;
-        }
-        .libro2{
-            height: 1400px;
-        }
-        .libro3{
-            height: 1550px;
-        }
-        .libro4{
-            height: 1100px;
-        }
-        .libro5{
-            height: 1100px;
-        }
-        .libro6{
-            height: 1400px;
-        }
-        .libro7{
-            height: 1100px;
-        }
-        .libro8{
-            height: 700px;
-        }
         .gif{
             display: flex;
             flex-direction: column;
@@ -199,30 +147,6 @@
               "libro9" 
               "libro10" 
               "libro11";
-              .libro1{
-                height: 900px;
-              }
-              .libro2{
-                height: 900px;
-              }
-              .libro3{
-                height: 1100px;
-              }
-              .libro4{
-                height: 700px;
-              }
-              .libro5{
-                height: 900px;
-              }
-              .libro6{
-                height: 900px;
-              }
-              .libro7{
-                height: 900px;
-              }
-              .libro8{
-                height: 700px;
-              }
         }
         .peliculas{
             grid-template-columns: 1fr;
@@ -269,7 +193,11 @@
 }
 @media screen and (max-width: 320px){
     main{
-        .libro1{
+        .gif{
+            display: flex;
+            justify-content: center;
+        }
+        .libros{
             height: 100%;
         }
         .videojuegos{
