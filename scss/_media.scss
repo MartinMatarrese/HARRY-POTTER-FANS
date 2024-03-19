@@ -191,37 +191,37 @@
         width: 200px;
     }
 }
-@media screen and (max-width: 320px){
-    main{
-        .gif{
-            display: flex;
-            justify-content: center;
-        }
-        .libros{
-            height: 100%;
-        }
-        .videojuegos{
-            width: 80vw;
-            display: flex;
-            flex-direction: column;
-        }
-        .escenas{
-            width: 80vw;
-        }
-        h2{
+@media screen and (max-width: 320px){    
+        main{
+            .gif{
+                display: flex;
+                justify-content: center;
+            }
+            .libros{
+                height: 100%;
+            }
+            .videojuegos{
+                width: 80vw;
+                display: flex;
+                flex-direction: column;
+            }
+            .escenas{
+                width: 80vw;
+            }
+            h2{
+                font-size: 15px;
+            }
+        }        
+        h3{
             font-size: 15px;
         }
-    }
-    h3{
-        font-size: 15px;
-    }
-    footer{
-        width: 100vw;
-    }
-    .texto{
-        width: 200px;
-    }
-    .opinion{
-        width: 200px;
-    }
+        footer{
+            width: 100vw;
+        }
+        .texto{
+            width: 200px;
+        }
+        .opinion{
+            width: 200px;
+        }
 }
